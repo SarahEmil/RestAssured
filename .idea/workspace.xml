@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3fb4ea1-7ca6-4180-ac3e-a118b709b1c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GetRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GetRequest_Param.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/delRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/postRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/putRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetRequest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.GetRequest">
+  <component name="RunManager" selected="Application.delRequest">
     <configuration name="GetRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="GetRequest" />
       <module name="RestAssured" />
@@ -70,9 +68,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="delRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="delRequest" />
+      <module name="RestAssured" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="postRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="postRequest" />
+      <module name="RestAssured" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="putRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="putRequest" />
+      <module name="RestAssured" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.delRequest" />
+        <item itemvalue="Application.putRequest" />
         <item itemvalue="Application.GetRequest" />
+        <item itemvalue="Application.postRequest" />
         <item itemvalue="Application.GetRequest_Param" />
       </list>
     </recent_temporary>
