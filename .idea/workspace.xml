@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3fb4ea1-7ca6-4180-ac3e-a118b709b1c0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/delRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/postRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/putRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Actions/Auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Boards/CreateBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Boards/DeleteBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Boards/GetBoardsInAnOrganization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lists/ArchiveList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lists/CreateList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Lists/CreateListInBoard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Organization/CreateNewOrganization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Organization/GetOrganizationId.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GetRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GetRequest_Param.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/delRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/postRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/putRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Organization/GetOrganizationsForAMember.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,49 +62,79 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.delRequest">
-    <configuration name="GetRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GetRequest" />
+  <component name="RunManager" selected="Application.GetMemberId">
+    <configuration name="Auth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Actions.Auth" />
       <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Actions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetRequest_Param" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GetRequest_Param" />
+    <configuration name="CreateBoard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Boards.CreateBoard" />
       <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Boards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="delRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="delRequest" />
+    <configuration name="CreateList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists.CreateList" />
       <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lists.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="postRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="postRequest" />
+    <configuration name="CreateNewOrganization" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Organization.CreateNewOrganization" />
       <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Organization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="putRequest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="putRequest" />
+    <configuration name="GetMemberId" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Members.GetMemberId" />
       <module name="RestAssured" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Members.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.delRequest" />
-        <item itemvalue="Application.putRequest" />
-        <item itemvalue="Application.GetRequest" />
-        <item itemvalue="Application.postRequest" />
-        <item itemvalue="Application.GetRequest_Param" />
+        <item itemvalue="Application.GetMemberId" />
+        <item itemvalue="Application.CreateBoard" />
+        <item itemvalue="Application.CreateNewOrganization" />
+        <item itemvalue="Application.CreateList" />
+        <item itemvalue="Application.Auth" />
       </list>
     </recent_temporary>
   </component>
